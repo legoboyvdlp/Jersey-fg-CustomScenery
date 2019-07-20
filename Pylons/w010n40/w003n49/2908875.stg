@@ -1,0 +1,9 @@
+# pylons_w010n40_w003n49_2908875
+# do not edit below this line
+# Last Written Sat Jul 20 12:59:57 2019
+#
+OBJECT_SHARED Models/Industrial/KOFF_Tank_20M.ac -2.10958 49.17436 8.01 0
+OBJECT_SHARED Models/Industrial/brick_chimney_502m.ac -2.10862 49.17467 -376.75 450
+OBJECT_SHARED Models/Industrial/TPS_Drujba2_chimney.ac -2.10862 49.17467 -2.04 450
+OBJECT_SHARED Models/Industrial/TPS_Drujba2_chimney.ac -2.10862 49.17467 7.19 450
+# END pylons_w010n40_w003n49_2908875
