@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Airport/ndb.ac -2.1997 49.708878 -0.01 180
+OBJECT_SHARED Models/Maritime/Civilian/Trent_Lifeboat.xml -2.20167 49.725 -0.09 75
+OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml -2.16426 49.729127 -2.42 0
+OBJECT_STATIC Mannez_Lighthouse.xml -2.16288982 49.7302916 -0.09 72

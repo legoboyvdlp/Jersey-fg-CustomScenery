@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>Les_Hanois_Lighthouse.ac</path>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>56000</max-m>
+ </animation>
+
+ <animation>
+  <object-name>Head</object-name>
+  <enable-hot type="bool">false</enable-hot>
+ </animation>
+
+ <animation>
+  <type>alpha-test</type>
+  <alpha-factor>0.01</alpha-factor>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Head</object-name>
+  <condition>
+   <greater-than>
+    <property>/sim/time/sun-angle-rad</property>
+    <value>1.57</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+
+ <animation>
+  <type>range</type>
+  <object-name>Head</object-name>
+  <min-m>0</min-m>
+  <max-m>56000</max-m>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Head</object-name>
+  <condition>
+   <greater-than>
+    <property>/sim/time/sun-angle-rad</property>
+    <value>1.57</value>
+   </greater-than>
+  </condition>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>30</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>32.0</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+<model>
+<path>Models/Airport/4m90_HelipadCollar.ac</path> 
+ <offsets>
+  <x-m> 0.20</x-m>
+  <y-m> -0.25</y-m>
+  <z-m> 36.07</z-m>
+  </offsets>
+</model>
+
+ </PropertyList>
